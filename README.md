@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Curso Starter Rocketseat - JavaScript
+  Curso Starter Rocketseat - ES6+
 </h3>
 
 <blockquote align="center">“Faça seu melhor, mas sempre com prazo de entrega!”</blockquote>
@@ -62,8 +62,8 @@
 
 
         2.2 Utilizando o filter
-                Crie uma variáveis que tenha apenas os usuários que trabalham na Rocketseat e com mais de 18
-                anos: [{ nome: 'Diego', idade: 23, empresa: 'Rocketseat' }]
+                Crie uma variáveis que tenha apenas os usuários que trabalham na Rocketseat e com 
+                mais de 18 anos: [{ nome: 'Diego', idade: 23, empresa: 'Rocketseat' }]
 
 
         2.3 Utilizando o find
@@ -71,8 +71,8 @@
 
 
         2.4 Unindo operações
-                Multiplique a idade de todos usuários por dois e depois realize um filtro nos usuários que possuem
-                no máximo 50 anos:
+                Multiplique a idade de todos usuários por dois e depois realize um filtro nos usuários que
+                possuem no máximo 50 anos:
                 
                 Resultado:
                 
@@ -149,8 +149,8 @@
                         }
                 };
 
-                Utilize a desestruturação para transformar as propriedades nome, cidade e estado em variáveis, no
-                fim deve ser possível fazer o seguinte:
+                Utilize a desestruturação para transformar as propriedades nome, cidade e estado em 
+                variáveis, no fim deve ser possível fazer o seguinte:
 
                 console.log(nome); // Rocketseat
                 console.log(cidade); // Rio do Sul
@@ -168,6 +168,75 @@
                 Utilize a desestruturação nos parâmetros da função para buscar o nome e idade do usuário
                 separadamente e a função poder retornar apenas:
                 return `${nome} tem ${idade} anos.`;
+```
+
+<br>
+
+- [x] 5 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/01-conceitos/05-restSpread.js) :heavy_check_mark:
+    
+```
+
+        5.1 Rest
+                A partir do array: const arr = [1, 2, 3, 4, 5, 6], defina uma variável x que recebe a primeira
+                posição do vetor e outra variável y que recebe todo restante dos dados.
+
+                console.log(x); // 1
+                console.log(y); // [2, 3, 4, 5, 6]
+
+                Crie uma função que recebe inúmeros parâmetros e retorna a soma de todos eles:
+                
+                // function soma...
+                console.log(soma(1, 2, 3, 4, 5, 6)); // 21
+                console.log(soma(1, 2)); // 3
+
+
+        5.2 Spread
+                A partir do objeto e utilizando o operador spread:
+                
+                const usuario = {
+                        nome: 'Diego',
+                        idade: 23,
+                        endereco: {
+                                cidade: 'Rio do Sul',
+                                uf: 'SC',
+                                pais: 'Brasil',
+                        }
+                };
+                
+                Crie uma variável usuario2 que contenha todos os dados do usuário porém com nome Gabriel.
+                Crie uma variável usuario3 que contenha todos os dados do usuário porém com cidade Lontras.
+
+```
+
+<br>
+
+- [x] 6 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/01-conceitos/06-templateLiterals.js) :heavy_check_mark:
+    
+```
+        Converta o seguinte trecho de código utilizando Template Literals:
+        
+        const usuario = 'Diego';
+        const idade = 23;
+        console.log('O usuário ' + usuario + ' possui ' + idade + ' anos');
+
+```
+
+<br>
+
+- [x] 7 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/01-conceitos/07-sintaxeCurta.js) :heavy_check_mark:
+    
+```
+
+        Utilize a sintaxe curta de objetos (Object Short Syntax) no seguinte objeto:
+        
+        const nome = 'Diego';
+        const idade = 23;
+        const usuario = {
+                nome: nome,
+                idade: idade,
+                cidade: 'Rio do Sul',
+        };
+
 ```
 
 <br>
