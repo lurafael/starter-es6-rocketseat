@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Curso Starter JS" src="https://raw.githubusercontent.com/lurafael/starter-es6-rocketseat/335d2b52f54109736e95226e949d6877e697f742/images/logo-starter.svg" width="400px" />
+    <img alt="Curso Starter JS" src="https://github.com/lurafael/starter-es6-rocketseat/blob/master/images/logo-starter.svg" width="400px" />
 </h1>
 
 <h3 align="center">
