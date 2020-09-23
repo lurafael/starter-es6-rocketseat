@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Curso Starter JS" src="https://raw.githubusercontent.com/lurafael/starter-javascript-rocketseat/335d2b52f54109736e95226e949d6877e697f742/images/logo-starter.svg" width="400px" />
+    <img alt="Curso Starter JS" src="https://raw.githubusercontent.com/lurafael/starter-es6-rocketseat/335d2b52f54109736e95226e949d6877e697f742/images/logo-starter.svg" width="400px" />
 </h1>
 
 <h3 align="center">
@@ -134,7 +134,7 @@
 
 <br>
 
-- [x] 4 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/01-conceitos/04-desestruturacao.js) :heavy_check_mark:
+- [x] 4 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-es6-rocketseat/blob/master/01-conceitos/04-desestruturacao.js) :heavy_check_mark:
     
 ```
 
@@ -172,7 +172,7 @@
 
 <br>
 
-- [x] 5 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/01-conceitos/05-restSpread.js) :heavy_check_mark:
+- [x] 5 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-es6-rocketseat/blob/master/01-conceitos/05-restSpread.js) :heavy_check_mark:
     
 ```
 
@@ -210,7 +210,7 @@
 
 <br>
 
-- [x] 6 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/01-conceitos/06-templateLiterals.js) :heavy_check_mark:
+- [x] 6 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-es6-rocketseat/blob/master/01-conceitos/06-templateLiterals.js) :heavy_check_mark:
     
 ```
         Converta o seguinte trecho de código utilizando Template Literals:
@@ -223,7 +223,7 @@
 
 <br>
 
-- [x] 7 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/01-conceitos/07-sintaxeCurta.js) :heavy_check_mark:
+- [x] 7 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-es6-rocketseat/blob/master/01-conceitos/07-sintaxeCurta.js) :heavy_check_mark:
     
 ```
 
