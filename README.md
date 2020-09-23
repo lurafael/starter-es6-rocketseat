@@ -177,8 +177,8 @@
 ```
 
         5.1 Rest
-                A partir do array: const arr = [1, 2, 3, 4, 5, 6], defina uma variável x que recebe a primeira
-                posição do vetor e outra variável y que recebe todo restante dos dados.
+                A partir do array: const arr = [1, 2, 3, 4, 5, 6], defina uma variável x que recebe
+                a primeira posição do vetor e outra variável y que recebe todo restante dos dados.
 
                 console.log(x); // 1
                 console.log(y); // [2, 3, 4, 5, 6]
