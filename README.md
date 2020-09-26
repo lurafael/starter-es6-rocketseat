@@ -271,6 +271,52 @@
 
 <br>
 
+## 3. Desafio 3 - Async/await
+
+- [x] 1 - [Clique aqui para ver a resolução](https://github.com/lurafael/starter-es6-rocketseat/blob/master/03-asyncAwait/asyncAwait.js) :heavy_check_mark:
+    
+```
+        Todos os exercícios abaixo necessitam que você esteja com o plugin do Async/Await do Babel e o
+        babel-polyfill devidamente configurados. Em alguns exercícios é necessário instalar o Axios.
+        
+        Exercício
+        Transforme os seguintes trechos de código utilizando async/await:
+
+        //1.1
+        const delay = () => new Promise(resolve => setTimeout(resolve, 1000));
+        function umPorSegundo() {
+                delay().then(() => {
+                console.log('1s');
+                        delay().then(() => {
+                        console.log('2s');
+                                delay().then(() => {
+                                console.log('3s');
+                                });
+                         })
+                });
+        }
+        umPorSegundo();
+
+        //1.2
+        import axios from 'axios';
+
+        function getUserFromGithub(user) {
+                axios.get(`https://api.github.com/users/${user}`)
+                        .then(response => {
+                                console.log(response.data);
+                        })
+                        .catch(err => {
+                                console.log('Usuário não existe');
+                        })
+        }
+        
+        getUserFromGithub('diego3g');
+        getUserFromGithub('diego3g124123');
+
+```
+
+<br>
+
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para mais detalhes.
