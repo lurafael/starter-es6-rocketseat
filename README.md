@@ -317,6 +317,26 @@
 
 <br>
 
+## 4. Desafio 4 - Aplicação com ES6+
+
+- [x] 4 - App de busca de repositórios :heavy_check_mark:
+
+4.1 - [Clique aqui para ver os arquivos JavaScript](https://github.com/lurafael/starter-es6-rocketseat/blob/master/04-app-es6/src) 
+
+
+4.2 - [Clique aqui para ver o arquivo HTML](https://github.com/lurafael/starter-es6-rocketseat/blob/master/04-app-es6/public/index.html)
+
+
+4.3 - [Clique aqui para ver o arquivo CSS](https://github.com/lurafael/starter-es6-rocketseat/blob/master/04-app-es6/public/style.css) 
+    
+```
+
+    Imagem (Em breve!)
+
+```
+
+<br>
+
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para mais detalhes.
