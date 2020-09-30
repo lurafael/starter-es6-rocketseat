@@ -328,12 +328,9 @@
 
 
 4.3 - [Clique aqui para ver o arquivo CSS](https://github.com/lurafael/starter-es6-rocketseat/blob/master/04-app-es6/public/style.css) 
+
     
-```
-
-    Imagem (Em breve!)
-
-```
+![Foto do app](https://github.com/lurafael/starter-es6-rocketseat/blob/master/images/image-app.png)
 
 <br>
 
