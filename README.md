@@ -321,16 +321,13 @@
 
 - [x] 4 - App de busca de repositórios :heavy_check_mark:
 
-4.1 - [Clique aqui para ver os arquivos JavaScript](https://github.com/lurafael/starter-es6-rocketseat/blob/master/04-app-es6/src) 
+[Clique aqui para acessar o site](https://repositoryfinder.netlify.app/)
 
+[Clique aqui para ver os arquivos JavaScript](https://github.com/lurafael/starter-es6-rocketseat/blob/master/04-app-es6/src) 
+[Clique aqui para ver o arquivo HTML](https://github.com/lurafael/starter-es6-rocketseat/blob/master/04-app-es6/public/index.html)
+[Clique aqui para ver o arquivo CSS](https://github.com/lurafael/starter-es6-rocketseat/blob/master/04-app-es6/public/style.css) 
 
-4.2 - [Clique aqui para ver o arquivo HTML](https://github.com/lurafael/starter-es6-rocketseat/blob/master/04-app-es6/public/index.html)
-
-
-4.3 - [Clique aqui para ver o arquivo CSS](https://github.com/lurafael/starter-es6-rocketseat/blob/master/04-app-es6/public/style.css) 
-
-    
-![Foto do app](https://github.com/lurafael/starter-es6-rocketseat/blob/master/images/image-app.png)
+![Foto do app de To-dos](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/images/foto-app.png)
 
 <br>
 
