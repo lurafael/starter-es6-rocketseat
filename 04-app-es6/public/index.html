@@ -4,17 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Busca Repos</title>
+    <title>Repository Finder</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
+    <h1>Repository Finder</h1>
     <form id="repo-form">
         <input type="text" name="repository">
         <button type="submit">Adicionar</button>
+        <div class="repository-empty active">
+            <p>Digite algum usuário/repositório que pesquisaremos para você :)</p>
+        </div>
     </form>
 
     <ul id="repo-list"></ul>
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <a class="close-modal">
+                <i class="material-icons">close</i>
+            </a>
+            <div class="modal-content">
+                <h2>Não foi possível encontrar o repositório :(</h2>
+                <h5>
+                    Certifique-se de digitar corretamente o campo sendo:
+                    usuário do github/nome do repositório
+                </h5>
+                <p>Exemplo:</p>
+                <p>lurafael/starter-es6-rocketseat</p>
+            </div>
+        </div>
+
+    </div>
 
     <script src="./bundle.js"></script>
 </body>

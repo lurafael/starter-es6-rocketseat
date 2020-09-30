@@ -6,6 +6,10 @@ class App {
         this.formElement = document.querySelector('#repo-form');
         this.listElement = document.querySelector('#repo-list');
         this.inputElement = document.querySelector('input[name="repository"]');
+        this.modalOverlay = document.querySelector('.modal-overlay');
+        this.closeModal = document.querySelector('.close-modal');
+        this.repositoryEmpty = document.querySelector('.repository-empty');
+        this.buttonElement = document.querySelector('button');
         this.registerHandlers();
     }
 
@@ -18,6 +22,7 @@ class App {
         const repoInput = this.inputElement.value;
 
         if (repoInput.length !== 0) {
+            this.repositoryEmpty.classList.remove('active');
             this.setLoading();
 
             try {
@@ -34,13 +39,14 @@ class App {
                 this.render();
 
             } catch (err) {
-                console.log('Usuário ou repositório não existe!');
+                this.modalOverlay.classList.add('active');
+                this.closeModal.addEventListener('click', () => this.modalOverlay.classList.remove('active'));
             }
 
             this.setLoading(false);
 
         } else {
-            console.log('Digite algo para pesquisarmos :)');
+            this.repositoryEmpty.classList.add('active');
         }
     }
 
@@ -60,7 +66,7 @@ class App {
 
             linkElement.setAttribute('target', '_blank');
             linkElement.setAttribute('href', repo.html_url);
-            linkElement.appendChild(document.createTextNode('Acessar'));
+            linkElement.appendChild(document.createTextNode('Acessar repositório'));
 
             wrapperElement.appendChild(imgElement);
             wrapperElement.appendChild(titleElement);
