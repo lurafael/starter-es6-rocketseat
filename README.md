@@ -323,7 +323,7 @@
 
 [Clique aqui para ver os arquivos do app](https://github.com/lurafael/starter-es6-rocketseat/blob/master/04-app-es6) :heavy_check_mark:
 
-![Foto do app de To-dos](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/images/foto-app.png)
+![Foto do app de To-dos](https://github.com/lurafael/starter-es6-rocketseat/blob/master/images/image-app.png)
 
 <br>
 
