@@ -321,11 +321,7 @@
 
 [Clique aqui para acessar o site](https://repositoryfinder.netlify.app/) :heavy_check_mark:
 
-[Clique aqui para ver os arquivos JavaScript](https://github.com/lurafael/starter-es6-rocketseat/blob/master/04-app-es6/src) :heavy_check_mark:
-
-[Clique aqui para ver o arquivo HTML](https://github.com/lurafael/starter-es6-rocketseat/blob/master/04-app-es6/public/index.html) :heavy_check_mark:
-
-[Clique aqui para ver o arquivo CSS](https://github.com/lurafael/starter-es6-rocketseat/blob/master/04-app-es6/public/style.css) :heavy_check_mark:
+[Clique aqui para ver os arquivos do app](https://github.com/lurafael/starter-es6-rocketseat/blob/master/04-app-es6) :heavy_check_mark:
 
 ![Foto do app de To-dos](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/images/foto-app.png)
 
