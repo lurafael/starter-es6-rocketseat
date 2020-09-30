@@ -319,13 +319,13 @@
 
 ## 4. Desafio 4 - Aplicação com ES6+
 
-- [x] 4 - App de busca de repositórios :heavy_check_mark:
+[Clique aqui para acessar o site](https://repositoryfinder.netlify.app/) :heavy_check_mark:
 
-[Clique aqui para acessar o site](https://repositoryfinder.netlify.app/)
+[Clique aqui para ver os arquivos JavaScript](https://github.com/lurafael/starter-es6-rocketseat/blob/master/04-app-es6/src) :heavy_check_mark:
 
-[Clique aqui para ver os arquivos JavaScript](https://github.com/lurafael/starter-es6-rocketseat/blob/master/04-app-es6/src) 
-[Clique aqui para ver o arquivo HTML](https://github.com/lurafael/starter-es6-rocketseat/blob/master/04-app-es6/public/index.html)
-[Clique aqui para ver o arquivo CSS](https://github.com/lurafael/starter-es6-rocketseat/blob/master/04-app-es6/public/style.css) 
+[Clique aqui para ver o arquivo HTML](https://github.com/lurafael/starter-es6-rocketseat/blob/master/04-app-es6/public/index.html) :heavy_check_mark:
+
+[Clique aqui para ver o arquivo CSS](https://github.com/lurafael/starter-es6-rocketseat/blob/master/04-app-es6/public/style.css) :heavy_check_mark:
 
 ![Foto do app de To-dos](https://github.com/lurafael/starter-javascript-rocketseat/blob/master/images/foto-app.png)
 
